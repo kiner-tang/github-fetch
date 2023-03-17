@@ -1,0 +1,51 @@
+{
+    "name": "github-fetch",
+    "version": "0.0.12",
+    "libName": "githubFetch",
+    "main": "dist/githubAPI.cjs.js",
+    "module": "dist/githubAPI.esm.js",
+    "description": "用于爬取一些 github 上的数据",
+    "bin": {
+        "ghf": "dist/githubAPI.cjs.js"
+    },
+    "scripts": {
+        "dev": "ttsc ./src/index.ts -w",
+        "build": "cp -rf ./src ./output & cd ./output & rollup -c",
+        "start": "node ./dist/githubAPI.cjs.js commit --owner=NeteaseYanxuan,ant-design,umijs,react-component --author=kiner-tang",
+        "prepublishOnly": "npm run build"
+    },
+    "author": "kiner-tang(文辉)",
+    "license": "ISC",
+    "homepage": "https://github.com/kiner-tang/github-fetch.git",
+    "bugs": {
+        "url": "https://github.com/kiner-tang/github-fetch/issues"
+    },
+    "repository": {
+        "url": "https://github.com/kiner-tang/github-fetch.git"
+    },
+    "dependencies": {
+        "@types/node": "^12.0.4",
+        "fs-extra": "9.0.1",
+        "octokit": "2.0.14",
+        "typescript": "^3.5.1",
+        "yargs": "17.7.1"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "9.0.2",
+        "@types/ms": "0.7.31",
+        "@types/yargs": "17.0.22",
+        "@zerollup/ts-transform-paths": "1.7.18",
+        "rollup": "2.38.5",
+        "rollup-plugin-babel": "4.4.0",
+        "rollup-plugin-commonjs": "10.1.0",
+        "rollup-plugin-node-resolve": "5.2.0",
+        "rollup-plugin-typescript": "1.0.1",
+        "ts-node": "9.1.1",
+        "tslib": "2.1.0",
+        "tslint": "^5.17.0",
+        "ttypescript": "1.5.12"
+    },
+    "tplVersion": "main",
+    "email": "1127031143@qq.com",
+    "pkgManager": "yarn"
+}
