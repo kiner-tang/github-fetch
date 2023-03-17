@@ -2,6 +2,10 @@
 
 通过 GitHub API 获取 GitHub 仓库信息。
 
+![image](https://user-images.githubusercontent.com/10286961/225801265-6f11b17a-2c75-49af-a5bf-e3ab7f877a1f.png)
+![image](https://user-images.githubusercontent.com/10286961/225801285-663a8259-6cb1-4912-a5ab-6d528cdd83b9.png)
+<img width="741" alt="image" src="https://user-images.githubusercontent.com/10286961/225801333-d0ffd213-cf6e-41a0-b754-46ed6bd0dcd9.png">
+
 ## 安装
 
 ```bash
