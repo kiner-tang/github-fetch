@@ -2,6 +2,12 @@
 
 通过 GitHub API 获取 GitHub 仓库信息。
 
+## 安装
+
+```bash
+npm i --location=global @kiner/github-fetch
+```
+
 ## 使用
 
 1. 参考教程申请 GitHub API Token [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)。
@@ -39,7 +45,7 @@
 #   html_url: string;
 
 # 爬取所有仓库的所有 commit
-node ./dist/githubAPI.cjs.js commit --owner=ant-design,umijs,react-component --author=kiner-tang --output=data/{{cmd}}-{{owner}}-{{author}}.json --token=**GithubToken**
+ghf commit --owner=ant-design,umijs,react-component --author=kiner-tang --output=data/{{cmd}}-{{owner}}-{{author}}.json --token=**GithubToken**
 
 ```
 
