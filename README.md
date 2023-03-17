@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-npm i --location=global @kiner/github-fetch
+npm i --location=global @kiner-tang/github-fetch
 ```
 
 ## 使用

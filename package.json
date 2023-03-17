@@ -1,5 +1,5 @@
 {
-  "name": "@kiner/github-fetch",
+  "name": "@kiner-tang/github-fetch",
   "version": "0.0.1",
   "libName": "githubFetch",
   "main": "dist/githubAPI.cjs.js",
